@@ -17,8 +17,8 @@
 		"../scss/layouts/_footer.scss"
 	],
 	"sourcesContent": [
-		"/*\r\n\tVida Ingles Theme\r\n\tAuthor: Ricardo Maldonado\r\n\tVersion: 0.0.1\r\n\r\n*/\r\n\r\n/* BASE - base styles, variables, mixins, etc */\r\n\r\n@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_normalize.scss';\r\n@import 'base/_base.scss';\r\n\r\n\r\n/* MODULES - Individual site components */\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_sections.scss';\r\n@import 'modules/_components.scss';\r\n\r\n\r\n/* LAYOUTS - Page layout styles */\r\n\r\n@import 'layouts/_nav.scss';\r\n@import 'layouts/_header.scss';\r\n@import 'layouts/_footer.scss';\r\n\r\n\r\n\r\n",
-		"",
+		"/*\r\n\tVida Ingles Theme\r\n\tAuthor: Ricardo Maldonado\r\n\tVersion: 0.0.1\r\n\r\n*/\r\n\r\n/* BASE - base styles, variables, mixins, etc */\r\n\r\n@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_normalize.scss';\r\n@import 'base/_base.scss';\r\n\r\n\r\n/* MODULES - Individual site components */\r\n\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_sections.scss';\r\n@import 'modules/_components.scss';\r\n\r\n\r\n/* LAYOUTS - Page layout styles */\r\n\r\n@import 'layouts/_nav.scss';\r\n@import 'layouts/_header.scss';\r\n@import 'layouts/_footer.scss';\r\n\r\n\r\n",
+		"$vi-main-color: #9C27B0;",
 		"",
 		"",
 		"",
@@ -27,10 +27,10 @@
 		"",
 		"body {\r\n  padding-top: 3.5rem;\r\n}\r\n\r\n.jumbotron {\r\n\tpadding: 4rem 2rem;\r\n}",
 		"",
-		".navbar-toggleable-md .navbar-nav .nav-link {\r\n    padding-left: 2rem;\r\n}\r\n",
+		".bg-inverse {\r\n\tbackground-color: $vi-main-color !important;\r\n}\r\n\r\n.navbar-toggleable-md .navbar-nav .nav-link {\r\n    padding-left: 2rem;\r\n}\r\n",
 		"",
 		""
 	],
-	"mappings": "AAAA;;;;;EAKE;AAEF,gDAAgD;AAQhD,0CAA0C;;AQf1C,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,MAAO;CACrB;;;AAED,AAAA,UAAU,CAAC;EACV,OAAO,EAAE,SAAU;CACnB;;ARkBD,kCAAkC;;AUxBlC,AAAkC,qBAAb,CAAC,WAAW,CAAC,SAAS,CAAC;EACxC,YAAY,EAAE,IAAK;CACtB",
+	"mappings": "AAAA;;;;;EAKE;AAEF,gDAAgD;AAQhD,0CAA0C;;AQf1C,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,MAAO;CACrB;;;AAED,AAAA,UAAU,CAAC;EACV,OAAO,EAAE,SAAU;CACnB;;ARmBD,kCAAkC;;AUzBlC,AAAA,WAAW,CAAC;EACX,gBAAgB,ETDD,OAAO,CSCW,UAAU;CAC3C;;;AAED,AAAkC,qBAAb,CAAC,WAAW,CAAC,SAAS,CAAC;EACxC,YAAY,EAAE,IAAK;CACtB",
 	"names": []
 }
