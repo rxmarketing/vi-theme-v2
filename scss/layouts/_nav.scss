@@ -1,5 +1,9 @@
 .bg-inverse {
-	background-color: $vi-primary-color !important;
+	//background-color: $vi-primary-color !important;
+}
+
+.dropdown-toggle::after{
+    display: none;
 }
 
 .navbar-toggleable-md .navbar-nav .nav-link {

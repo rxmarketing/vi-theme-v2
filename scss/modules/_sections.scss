@@ -4,5 +4,6 @@ body {
 
 .jumbotron {
 	padding: 4rem 2rem;
-	background-color: $vi-jumbotron-bg-color ;
+	background-color: $vi-jumbotron-bg-color;
+	border-bottom: 1px solid $vi-jumbotron-border-color;
 }

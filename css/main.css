@@ -40,16 +40,17 @@ body {
 /* line 5, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_sections.scss */
 .jumbotron {
   padding: 4rem 2rem;
-  background-color: rgba(225, 190, 231, 0.35);
+  background-color: rgba(225, 190, 231, 0.2);
+  border-bottom: 1px solid #E1BEE7;
 }
 
 /* LAYOUTS - Page layout styles */
-/* line 1, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/layouts/_nav.scss */
-.bg-inverse {
-  background-color: #9C27B0 !important;
+/* line 5, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/layouts/_nav.scss */
+.dropdown-toggle::after {
+  display: none;
 }
 
-/* line 5, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/layouts/_nav.scss */
+/* line 9, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/layouts/_nav.scss */
 .navbar-toggleable-md .navbar-nav .nav-link {
   padding-left: 2rem;
 }
