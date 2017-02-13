@@ -1,0 +1,25 @@
+/*
+	Vida Ingles Theme
+	Author: Ricardo Maldonado
+	Version: 0.0.1
+
+*/
+/* BASE - base styles, variables, mixins, etc */
+/* MODULES - Individual site components */
+/* line 1, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_sections.scss */
+body {
+  padding-top: 3.5rem;
+}
+
+/* line 5, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_sections.scss */
+.jumbotron {
+  padding: 4rem 2rem;
+}
+
+/* LAYOUTS - Page layout styles */
+/* line 1, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/layouts/_nav.scss */
+.navbar-toggleable-md .navbar-nav .nav-link {
+  padding-left: 2rem;
+}
+
+/*# sourceMappingURL=../css/main.map */
