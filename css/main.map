@@ -18,19 +18,19 @@
 	],
 	"sourcesContent": [
 		"/*\r\n\tVida Ingles Theme\r\n\tAuthor: Ricardo Maldonado\r\n\tVersion: 0.0.1\r\n\r\n*/\r\n\r\n/* BASE - base styles, variables, mixins, etc */\r\n\r\n@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_normalize.scss';\r\n@import 'base/_base.scss';\r\n\r\n\r\n/* MODULES - Individual site components */\r\n\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_sections.scss';\r\n@import 'modules/_components.scss';\r\n\r\n\r\n/* LAYOUTS - Page layout styles */\r\n\r\n@import 'layouts/_nav.scss';\r\n@import 'layouts/_header.scss';\r\n@import 'layouts/_footer.scss';\r\n\r\n\r\n",
-		"/* Font colors */\r\n\r\n\r\n/* Background colors */\r\n\r\n\r\n\r\n$vi-primary-color: #9C27B0;\r\n$vi-body-bg-color: #fff;\r\n$vi-jumbotron-bg-color:#F3E5F5;\r\n$vi-btn-success-bg: #AB47BC;\r\n$vi-btn-success-bg-hover: #7B1FA2;",
+		"/* Font colors */\r\n\r\n\r\n/* Background colors */\r\n\r\n\r\n\r\n$vi-primary-color: #9C27B0;\r\n$vi-body-bg-color: #F3E5F5;\r\n$vi-jumbotron-bg-color: rgba(225, 190, 231, 0.35);\r\n$vi-btn-success-bg: #AB47BC;\r\n$vi-btn-success-bg-hover: #7B1FA2;",
 		"",
 		"",
 		"body {\r\n\tbackground-color: $vi-body-bg-color;\r\n}",
 		"",
 		"",
 		".btn-success {\r\n\tbackground-color: $vi-btn-success-bg;\r\n\tborder-color: $vi-btn-success-bg;\r\n\t&:hover {\r\n\t\tbackground-color: $vi-btn-success-bg-hover;\r\n\t\tborder-color: $vi-btn-success-bg;\r\n\t}\r\n\t&:active {\r\n\t\tbackground-color: $vi-btn-success-bg;\r\n\t\tbackground-image: none;\r\n\t\tborder-color: $vi-btn-success-bg;\r\n\t}\r\n}",
-		"body {\r\n  padding-top: 3.5rem;\r\n}\r\n\r\n.jumbotron {\r\n\tpadding: 4rem 2rem;\r\n\tbackground-color: $vi-jumbotron-bg-color;\r\n}",
+		"body {\r\n  padding-top: 3.5rem;\r\n}\r\n\r\n.jumbotron {\r\n\tpadding: 4rem 2rem;\r\n\tbackground-color: $vi-jumbotron-bg-color ;\r\n}",
 		"",
 		".bg-inverse {\r\n\tbackground-color: $vi-primary-color !important;\r\n}\r\n\r\n.navbar-toggleable-md .navbar-nav .nav-link {\r\n    padding-left: 2rem;\r\n}\r\n",
 		"",
 		""
 	],
-	"mappings": "AAAA;;;;;EAKE;AAEF,gDAAgD;ACPhD,iBAAiB;AAGjB,uBAAuB;;AGHvB,AAAA,IAAI,CAAC;EACJ,gBAAgB,EHOE,IAAI;CGNtB;;AJaD,0CAA0C;;AOf1C,AAAA,YAAY,CAAC;EACZ,gBAAgB,ENSG,OAAO;EMR1B,YAAY,ENQO,OAAO;CME1B;;;AAZD,AAAA,YAAY,AAGV,MAAM,CAAC;EACP,gBAAgB,ENOQ,OAAO;EMN/B,YAAY,ENKM,OAAO;CMJzB;;;AANF,AAAA,YAAY,AAOV,OAAO,CAAC;EACR,gBAAgB,ENEE,OAAO;EMDzB,gBAAgB,EAAE,IAAK;EACvB,YAAY,ENAM,OAAO;CMCzB;;;ACXF,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,MAAO;CACrB;;;AAED,AAAA,UAAU,CAAC;EACV,OAAO,EAAE,SAAU;EACnB,gBAAgB,EPGM,OAAO;COF7B;;ARkBD,kCAAkC;;AUzBlC,AAAA,WAAW,CAAC;EACX,gBAAgB,ETME,OAAO,CSNW,UAAU;CAC9C;;;AAED,AAAkC,qBAAb,CAAC,WAAW,CAAC,SAAS,CAAC;EACxC,YAAY,EAAE,IAAK;CACtB",
+	"mappings": "AAAA;;;;;EAKE;AAEF,gDAAgD;ACPhD,iBAAiB;AAGjB,uBAAuB;;AGHvB,AAAA,IAAI,CAAC;EACJ,gBAAgB,EHOE,OAAO;CGNzB;;AJaD,0CAA0C;;AOf1C,AAAA,YAAY,CAAC;EACZ,gBAAgB,ENSG,OAAO;EMR1B,YAAY,ENQO,OAAO;CME1B;;;AAZD,AAAA,YAAY,AAGV,MAAM,CAAC;EACP,gBAAgB,ENOQ,OAAO;EMN/B,YAAY,ENKM,OAAO;CMJzB;;;AANF,AAAA,YAAY,AAOV,OAAO,CAAC;EACR,gBAAgB,ENEE,OAAO;EMDzB,gBAAgB,EAAE,IAAK;EACvB,YAAY,ENAM,OAAO;CMCzB;;;ACXF,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,MAAO;CACrB;;;AAED,AAAA,UAAU,CAAC;EACV,OAAO,EAAE,SAAU;EACnB,gBAAgB,EPGO,yBAAI;COF3B;;ARkBD,kCAAkC;;AUzBlC,AAAA,WAAW,CAAC;EACX,gBAAgB,ETME,OAAO,CSNW,UAAU;CAC9C;;;AAED,AAAkC,qBAAb,CAAC,WAAW,CAAC,SAAS,CAAC;EACxC,YAAY,EAAE,IAAK;CACtB",
 	"names": []
 }

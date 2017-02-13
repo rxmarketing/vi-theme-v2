@@ -9,7 +9,7 @@
 /* Background colors */
 /* line 1, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/base/_base.scss */
 body {
-  background-color: #fff;
+  background-color: #F3E5F5;
 }
 
 /* MODULES - Individual site components */
@@ -40,7 +40,7 @@ body {
 /* line 5, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_sections.scss */
 .jumbotron {
   padding: 4rem 2rem;
-  background-color: #F3E5F5;
+  background-color: rgba(225, 190, 231, 0.35);
 }
 
 /* LAYOUTS - Page layout styles */
