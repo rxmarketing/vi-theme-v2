@@ -5,7 +5,33 @@
 
 */
 /* BASE - base styles, variables, mixins, etc */
+/* Font colors */
+/* Background colors */
+/* line 1, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/base/_base.scss */
+body {
+  background-color: #fff;
+}
+
 /* MODULES - Individual site components */
+/* line 1, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_buttons.scss */
+.btn-success {
+  background-color: #AB47BC;
+  border-color: #AB47BC;
+}
+
+/* line 4, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_buttons.scss */
+.btn-success:hover {
+  background-color: #7B1FA2;
+  border-color: #AB47BC;
+}
+
+/* line 8, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_buttons.scss */
+.btn-success:active {
+  background-color: #AB47BC;
+  background-image: none;
+  border-color: #AB47BC;
+}
+
 /* line 1, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_sections.scss */
 body {
   padding-top: 3.5rem;
@@ -14,6 +40,7 @@ body {
 /* line 5, C:/xampp/htdocs/vi-HTML5-CSS3-template/scss/modules/_sections.scss */
 .jumbotron {
   padding: 4rem 2rem;
+  background-color: #F3E5F5;
 }
 
 /* LAYOUTS - Page layout styles */

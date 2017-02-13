@@ -1,0 +1,13 @@
+.btn-success {
+	background-color: $vi-btn-success-bg;
+	border-color: $vi-btn-success-bg;
+	&:hover {
+		background-color: $vi-btn-success-bg-hover;
+		border-color: $vi-btn-success-bg;
+	}
+	&:active {
+		background-color: $vi-btn-success-bg;
+		background-image: none;
+		border-color: $vi-btn-success-bg;
+	}
+}
